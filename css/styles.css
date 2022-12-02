@@ -7,11 +7,85 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  background-color: red;
+  /* position: absolute; */
+}
+
+.nav {
+  background-color: green;
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li a {
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.menu li a:hover {
+  text-decoration: line-through;
+}
+
+.nav img {
+  background-color: aqua;
+}
+.buttonO {
+  background-color: coral;
+}
+
+.header_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_main_info {
+  background-color: yellow;
+  padding: 3rem;
+}
+
+.header_main h1 {
+  margin: 0;
+  margin: 2rem 0;
+  font-weight: 400;
+  background-color: cornsilk;
+}
+
+.header_main p {
+  margin: 0;
+  margin: 1rem 0;
+  background-color: aquamarine;
+}
+
+.header_main a {
+  background-color: rgb(255, 127, 251);
+}
+
+.fondo-header {
+  background-color: blueviolet;
+  width: 150rem;
+}
+
 /* Feel free to remove these styles or customise in your own stylesheet 👍 */
 style .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
