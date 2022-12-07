@@ -70,14 +70,16 @@ body {
   color: var(--Dark_Blue);
 }
 
+.icon_hamburger {
+  display: none;
+}
+
 /* ---------------------------------header del sitio web--------------------------------------- */
 
 .header {
-  height: 85vh;
   background-color: var(--Very_Light_Gray);
   background-image: url(../images/bg-intro-desktop.svg);
   background-repeat: no-repeat;
-  background-position: left 45vw bottom -15vh;
 }
 
 .header_main {
@@ -117,7 +119,6 @@ body {
 /* ----------------------------------Primera parte del main------------------------------ */
 
 .choose {
-  height: 75vh;
   padding: 6.5rem 7.5rem;
   display: flex;
   flex-direction: column;
@@ -155,7 +156,6 @@ body {
 }
 
 .choose_banks p {
-  width: 265px;
   font-size: 1rem;
   line-height: 1.5rem;
   color: var(--Grayish_Blue);
@@ -164,7 +164,6 @@ body {
 /* ---------------------------------------Segunda parte del main----------------------------- */
 
 .articles {
-  height: 85vh;
   display: flex;
   padding: 5rem 7.5rem;
   flex-direction: column;
@@ -172,7 +171,6 @@ body {
 }
 
 .articles h2 {
-  width: 100%;
   margin: 0 0 3rem 0;
   font-size: 2.7rem;
   font-weight: 400;
@@ -224,11 +222,11 @@ body {
 /* ------------------------------------footer de la pagina web------------------------- */
 
 .footer {
-  height: 20vh;
+  /* height: 20vh; */
+
   display: flex;
   align-items: center;
   justify-content: space-around;
-  color: white;
   background-color: var(--Dark_Blue);
 }
 

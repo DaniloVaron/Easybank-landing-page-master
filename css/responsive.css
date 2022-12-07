@@ -1,0 +1,278 @@
+@media (max-width: 1100px) {
+  /* --------------Navegador del sitio web-------------- */
+
+  /* -------------header del sitio web------------- */
+  .header_main_info {
+    width: 50%;
+    padding: 0 2rem;
+  }
+}
+
+/* ------------------------------------------------Responsive de 800px--------------------------------------------------- */
+@media (min-width: 801px) {
+  .header {
+    height: 85vh;
+    background-position: left 45vw bottom -15vh;
+  }
+
+  .choose {
+    height: 75vh;
+  }
+
+  .articles {
+    height: 85vh;
+  }
+
+  .footer {
+    height: 20vh;
+  }
+}
+
+@media (max-width: 800px) {
+  /* ----------Navegador del sitio web----------- */
+  .btn_nav {
+    display: none;
+  }
+
+  .nav_menu {
+    display: none;
+  }
+  .icon_hamburger {
+    display: inline-block;
+  }
+
+  /* ---------header del sitio web-------------- */
+
+  .header {
+    height: 110vh;
+    background-position: left -20vw bottom 41vh;
+  }
+
+  .header_main {
+    flex-direction: column-reverse;
+  }
+
+  .header_main_info {
+    width: 100%;
+    height: 60%;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_main_info h1,
+  p {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  .header_main_phone {
+    width: 100%;
+    height: 85%;
+    background-position: center bottom 0vh;
+    background-size: 40rem;
+  }
+
+  /* -----------Primera parte del main-------------- */
+
+  .choose {
+    padding: 4rem 7.5rem;
+  }
+
+  .choose_info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .choose_info p {
+    width: 100%;
+  }
+
+  .choose_banks {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .choose_banks article {
+    margin: 1rem 0;
+  }
+
+  /* ------------Segunda parte del main------------ */
+
+  .articles {
+    padding: 5rem 5rem;
+  }
+
+  .articles h2 {
+    text-align: center;
+    margin: 0 0 3rem 0;
+  }
+
+  .articles_cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .articles_cards article {
+    width: 60%;
+    margin: 0 0 3rem 0;
+  }
+
+  .articles_cards_info h3,
+  p {
+    text-align: start;
+  }
+
+  /* ----------footer de la pagina web---------- */
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icons {
+    margin: 2rem 0 0 0;
+  }
+
+  .icon {
+    margin: 0 0.6rem;
+  }
+
+  .list {
+    margin: 0;
+  }
+
+  .copy {
+    padding: 0;
+    margin: 2rem;
+    align-items: center;
+  }
+
+  .copy p {
+    margin-top: 2rem;
+  }
+}
+
+/* ------------------------------------------------Responsive de 375px--------------------------------------------------- */
+
+@media (max-width: 412px) {
+  /* ---------header del sitio web-------------- */
+
+  .header {
+    height: 90vh;
+    background-image: url(../images/bg-intro-mobile.svg);
+    background-position: center bottom 31vh;
+    background-size: 26rem;
+  }
+
+  .header_main_info {
+    height: 65%;
+    padding: 0 2rem;
+    /* justify-content: center; */
+  }
+
+  .header_main_info h1 {
+    font-size: 2.5rem;
+  }
+
+  .header_main_info p {
+    text-align: center;
+    margin: 0 0 2rem 0;
+  }
+
+  .header_main_phone {
+    width: 100%;
+    height: 85%;
+    background-position: center bottom 0vh;
+    background-size: 25rem;
+  }
+
+  /* -----------Primera parte del main-------------- */
+
+  .choose {
+    padding: 3rem 2.5rem;
+  }
+
+  .choose_info p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .choose_banks {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .choose_banks article {
+    margin: 1rem 0;
+  }
+
+  .choose_banks article p {
+    text-align: center;
+  }
+
+  /* ------------Segunda parte del main------------ */
+
+  .articles {
+    padding: 5rem 2rem;
+  }
+
+  .articles h2 {
+    margin: 0 0 2rem 0;
+  }
+
+  .articles_cards {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .articles_cards article {
+    width: 100%;
+    height: 400px;
+    margin: 0 0 3rem 0;
+  }
+
+  .articles_cards img {
+    height: 50%;
+  }
+
+  .articles_cards_info {
+    padding: 20px;
+  }
+
+  .articles_cards_info h3,
+  p {
+    margin: 0.5rem 0;
+  }
+
+  /* ----------footer de la pagina web---------- */
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .icons {
+    margin: 2rem 0 0 0;
+  }
+
+  .icon {
+    margin: 0 0.6rem;
+  }
+
+  .list {
+    margin: 0;
+  }
+
+  .copy {
+    padding: 0;
+    margin: 2rem;
+    align-items: center;
+  }
+
+  .copy p {
+    margin-top: 2rem;
+  }
+}
