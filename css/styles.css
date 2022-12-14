@@ -239,8 +239,6 @@ body {
 /* ------------------------------------footer de la pagina web------------------------- */
 
 .footer {
-  /* height: 20vh; */
-
   display: flex;
   align-items: center;
   justify-content: space-around;
