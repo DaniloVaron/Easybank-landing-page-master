@@ -55,6 +55,7 @@ body {
   align-items: center;
   font-size: 0.9rem;
   color: var(--Grayish_Blue);
+  background-color: var(--White);
   border-top: 4px none;
   border-bottom: 4px solid transparent;
 }
@@ -71,6 +72,22 @@ body {
 }
 
 .icon_hamburger {
+  width: 24px;
+  height: 11px;
+  background-image: url(../images/icon-hamburger.svg);
+  background-repeat: no-repeat;
+}
+
+.icon_close {
+  width: 24px;
+  height: 19px;
+  background-image: url(../images/icon-close.svg);
+  background-repeat: no-repeat;
+}
+
+.button_nav {
+  background-color: transparent;
+  border: none;
   display: none;
 }
 
@@ -253,6 +270,11 @@ body {
   margin: 0 0.4rem;
   display: inline-flex;
   background-repeat: no-repeat;
+}
+
+.icon:hover {
+  filter: invert(25%) sepia(12%) saturate(2768%) hue-rotate(78deg)
+    brightness(93%) contrast(100%);
 }
 
 .facebook {
